@@ -15,11 +15,11 @@ int main()
         if(arr[j]%gcd==0)
         {
             j++;
-            
         }
         else
         {
             gcd=arr[j]%gcd;
+            
         }
     }
     printf("%d",gcd);
