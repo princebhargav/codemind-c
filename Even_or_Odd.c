@@ -6,11 +6,11 @@ int main()
     if(n%2==0)
     {
         printf("Even");
+        
     }
-    
-    else 
+    else
     {
         printf("Odd");
-    }
         
+    }
 }
